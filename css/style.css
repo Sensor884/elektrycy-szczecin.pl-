@@ -6,7 +6,18 @@
   --glass: rgba(255,255,255,0.03);
   --radius:12px;
 }
-
+.hero-logo {
+  max-width: 260px;
+  width: 100%;
+  height: auto;
+  filter: drop-shadow(0 10px 30px rgba(255, 204, 0, 0.25));
+}
+@media (max-width: 768px) {
+  .hero-logo {
+    max-width: 180px;
+    margin: 0 auto;
+  }
+}
 *{box-sizing:border-box}
 html,body{height:100%}
 body{
